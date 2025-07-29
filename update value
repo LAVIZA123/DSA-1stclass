@@ -1,0 +1,15 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[100]={1,2,3,4,5};
+    int n=5,pos=1,newVal=99;
+    arr[pos]=newVal;
+    
+    for(int i=0;i<n;i++)
+    cout<<arr[i]<<" ";
+    
+
+    return 0;
+}
