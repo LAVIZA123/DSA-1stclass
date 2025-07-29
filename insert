@@ -1,0 +1,21 @@
+// Online C++ compiler to run C++ program online
+
+
+//insert element in array
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[100]={1,2,4,5};
+    int n=4,pos=2,val=3;
+    for(int i =n;i>pos;i--)
+    arr[i] =arr[i-1];
+    arr[pos]=val;
+    n++;
+    for(int i=0;i<n;i++)
+    cout<<arr[i];
+    
+
+    return 0;
+}
